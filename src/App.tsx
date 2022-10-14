@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { RatingCard } from "./Components/rating-card"
+import { ThankYouCard } from './Components/Thank-you-rating-card/thank-you-rating-card';
+import { useState, createContext } from "react"
+
+
+// interface Props {
+  // thankYou: boolean;
+  // setThankYou: () => boolean;
+// }
+export const cardContext = createContext<any>(null);
 
 function App() {
+  const [thankYou, setThankYou] = useState(false);
+  const [ ratingNumber, setRatingNumber ] = useState<number | null>();
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <cardContext.Provider value={{thankYou, setThankYou, ratingNumber, setRatingNumber}}>
+        <div className="App">
+            {thankYou ?
+            <ThankYouCard /> : 
+            <RatingCard />}
+            
+        </div>
+    </cardContext.Provider>
+    
   );
 }
 

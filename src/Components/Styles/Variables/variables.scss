@@ -1,0 +1,19 @@
+
+$primaryColor: hsl(25, 97%, 53%);
+
+// neutral colors
+$secondaryColor: hsl(216, 12%, 8%);
+$white: hsl(0, 0%, 100%);
+$lGrey: hsl(217, 12%, 63%);
+$mGrey: hsl(216, 12%, 54%);
+$dBlue: hsl(213, 19%, 18%);
+
+
+
+
+
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+$primaryFont: "Overpass", sans-serif;
+$bodyFontSize: 15px;

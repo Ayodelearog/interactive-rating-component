@@ -1,0 +1,152 @@
+@import "./Variables/variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+
+    .rating-card-thankYou {
+        background-color: $dBlue;
+        border-radius: 24px;
+        max-width: 79%;
+        min-height: max-content;
+        display: flex;
+        flex-direction: column;
+        padding: 35px 25px;
+    }
+
+    .rating-Tcard-content-container {
+        max-width: 98%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .Thank-you-illustration {
+        min-height: max-content;
+        align-self: center;
+        margin-bottom: 1.5rem;
+
+        svg {
+            margin: auto;
+        }
+    }
+
+    .Ratings {
+        width: 62%;
+        min-height: 32px;
+        background-color: hsla(0, 0%, 44%, 0.172);
+        border-radius: 20px;
+        align-self: center;
+        margin-bottom: 2rem;
+        display: flex;
+
+        p{
+            color: $primaryColor;
+            margin: auto;
+            font-size: $bodyFontSize;
+            font-family: $primaryFont;
+        }
+    }
+
+    .Rating-text-area {
+        font-family: $primaryFont;
+        h2 {
+            color: $white;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: $bodyFontSize;
+            color: $lGrey;
+        }
+      
+    }
+
+    .attribution {
+        position: relative;
+        top: 20%;
+        color: $lGrey;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card-container {
+    
+        .rating-card-thankYou {
+            background-color: $dBlue;
+            border-radius: 26px;
+            max-width: 25%;
+            min-height: max-content;
+            align-self: center;
+            padding: 45px 25px;
+        }
+
+        .rating-Tcard-content-container {
+            max-width: 95%;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+    
+        .Thank-you-illustration {
+            min-height: max-content;
+            align-self: center;
+            margin-bottom: 1.5rem;
+    
+            svg {
+                margin: auto;
+            }
+        }
+    
+        .Ratings {
+            width: 55%;
+            min-height: 30px;
+            background-color: hsla(0, 0%, 44%, 0.172);
+            border-radius: 20px;
+            align-self: center;
+            margin-bottom: 2rem;
+            display: flex;
+    
+            p{
+                color: $primaryColor;
+                margin: auto;
+                font-size: $bodyFontSize;
+                font-family: $primaryFont;
+            }
+        }
+    
+        .Rating-text-area {
+            font-family: $primaryFont;
+            h2 {
+                color: $white;
+                font-weight: 700;
+                margin-bottom: 12px;
+            }
+    
+            p {
+                font-size: $bodyFontSize;
+                color: $lGrey;
+            }
+          
+        }
+    
+        .attribution {
+            position: relative;
+            top: 20%;
+            color: $lGrey;
+        }
+    }
+}
+
