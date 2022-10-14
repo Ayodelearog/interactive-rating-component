@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://app.netlify.com/sites/interactive-rating-component-website)
 
 ## My process
 
@@ -65,5 +65,5 @@ I'd like to get better at manipulating the DOM in my code and also use TypeScrip
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Ayodelearog)
-- Twitter - [@yourusername](https://twitter.com/RationalMan_)
+- Frontend Mentor - [@Ayodelearog](https://www.frontendmentor.io/profile/Ayodelearog)
+- Twitter - [@RationalMan_](https://twitter.com/RationalMan_)
