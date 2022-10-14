@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://app.netlify.com/sites/interactive-rating-component-website)
+- Live Site URL: [interactive rating component](https://app.netlify.com/sites/interactive-rating-component-website)
 
 ## My process
 
